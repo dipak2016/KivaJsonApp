@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+{
+    NSMutableArray *arrmute;
+    NSTimer *timer;
+    int index;
+}
+@property (weak, nonatomic) IBOutlet UIWebView *web_vw;
+@property (weak, nonatomic) IBOutlet UILabel *lbl_nm;
 @end
 

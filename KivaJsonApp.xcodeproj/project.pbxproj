@@ -14,6 +14,8 @@
 		E70F53EC1C212FDE00469DA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70F53EB1C212FDE00469DA2 /* Images.xcassets */; };
 		E70F53EF1C212FDE00469DA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E70F53ED1C212FDE00469DA2 /* LaunchScreen.xib */; };
 		E70F53FB1C212FDE00469DA2 /* KivaJsonAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F53FA1C212FDE00469DA2 /* KivaJsonAppTests.m */; };
+		E70F54061C21352200469DA2 /* NXTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F54051C21352100469DA2 /* NXTViewController.m */; };
+		E70F54091C213D8800469DA2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70F54081C213D8800469DA2 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		E70F53F41C212FDE00469DA2 /* KivaJsonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KivaJsonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70F53F91C212FDE00469DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E70F53FA1C212FDE00469DA2 /* KivaJsonAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KivaJsonAppTests.m; sourceTree = "<group>"; };
+		E70F54041C21352100469DA2 /* NXTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTViewController.h; sourceTree = "<group>"; };
+		E70F54051C21352100469DA2 /* NXTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTViewController.m; sourceTree = "<group>"; };
+		E70F54071C213D8800469DA2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E70F54081C213D8800469DA2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 		E70F53D21C212FDE00469DA2 = {
 			isa = PBXGroup;
 			children = (
+				E70F54071C213D8800469DA2 /* DetailViewController.h */,
+				E70F54081C213D8800469DA2 /* DetailViewController.m */,
+				E70F54041C21352100469DA2 /* NXTViewController.h */,
+				E70F54051C21352100469DA2 /* NXTViewController.m */,
 				E70F53DD1C212FDE00469DA2 /* KivaJsonApp */,
 				E70F53F71C212FDE00469DA2 /* KivaJsonAppTests */,
 				E70F53DC1C212FDE00469DA2 /* Products */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70F54091C213D8800469DA2 /* DetailViewController.m in Sources */,
 				E70F53E71C212FDE00469DA2 /* ViewController.m in Sources */,
 				E70F53E41C212FDE00469DA2 /* AppDelegate.m in Sources */,
 				E70F53E11C212FDE00469DA2 /* main.m in Sources */,
+				E70F54061C21352200469DA2 /* NXTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
